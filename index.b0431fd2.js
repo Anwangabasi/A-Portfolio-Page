@@ -1,0 +1,2 @@
+const e=document.querySelector(".menu-btn"),n=document.querySelector(".menu-btn__hamburger"),o=document.querySelector(".nav"),s=document.querySelector(".menu-nav"),t=document.querySelectorAll(".menu-nav__item");let c=!1;e.addEventListener("click",function(){c?(n.classList.remove("open"),o.classList.remove("open"),s.classList.remove("open"),t.forEach(e=>e.classList.remove("open")),c=!1):(n.classList.add("open"),o.classList.add("open"),s.classList.add("open"),t.forEach(e=>e.classList.add("open")),c=!0)});
+//# sourceMappingURL=index.b0431fd2.js.map
